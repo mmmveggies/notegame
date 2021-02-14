@@ -18,8 +18,7 @@ export default function App() {
 		const system = factory.System();
 		system.addStave({
 			voices: [
-				// @ts-ignore
-				score.voice(score.notes('A4/8, B4/8, C5/8, D5/8, B4/8, G4/8, A4/4')),
+				score.voice(score.notes('A4/8, B4/8, C5/8, D5/8, B4/8, G4/8, A4/4'), null),
 			],
 		}).addClef('treble').addTimeSignature('4/4');
 		factory.draw();
