@@ -1,0 +1,20 @@
+{
+	"extends": [
+		"airbnb-typescript"
+	],
+	"ignorePatterns": "*.js",
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"react/jsx-indent": [
+			2,
+			"tab"
+		],
+		"no-tabs": "off"
+	}
+}
